@@ -45,11 +45,11 @@ public class DisplayComplementaryDrawingCanvas {
     } catch (FileNotFoundException noFile) {
       System.out.println("Unable to locate file");
     }
-    // Step One: Read in the RED color value
+    // TODO Step One: Read in the RED color value
 
-    // Step Two: Read in the GREEN color value
+    // TODO Step Two: Read in the GREEN color value
 
-    // Step Three: Read in the BLUE color value
+    // TODO Step Three: Read in the BLUE color value
 
     // Step Four: Create the JFrame window
     JFrame window = new JFrame("Gregory M. Kapfhammer " + new Date());
