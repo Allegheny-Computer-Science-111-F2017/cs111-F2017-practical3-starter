@@ -201,13 +201,13 @@ if [ "$CHECK" = true ]; then
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/practicalthree \
                                      --checkfiles PaintComplementaryDrawingCanvas.java --fragments "CANVAS_WIDTH" --fragmentcounts 2
   determine_exit_code $?
-  # --> GatorGrader CHECK: the "page.setColor" fragment exists in the code at least five times
+  # --> GatorGrader CHECK: the "page.setColor" fragment exists in the code at least two times
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/practicalthree \
                                      --checkfiles PaintComplementaryDrawingCanvas.java --fragments "page.setColor" --fragmentcounts 2
   determine_exit_code $?
   # --> GatorGrader CHECK: the "fillRect" fragment exists in the code at least three times
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/practicalthree \
-                                     --checkfiles PaintComplementaryDrawingCanvas.java --fragments "fillRect" --fragmentcounts 2
+                                     --checkfiles PaintComplementaryDrawingCanvas.java --fragments "fillRect" --fragmentcounts 4
   determine_exit_code $?
   # --> GatorGrader CHECK: the "RGB_MAXIMUM" fragment exists in the code at least two times
   python3 gatorgrader/gatorgrader.py --nowelcome --directories src/main/java/practicalthree \
