@@ -46,11 +46,11 @@ public class DisplayComplementaryDrawingCanvas {
       System.out.println("Unable to locate file");
     }
     // Step One: Read in the RED color value
-    redValue = scanner.nextInt();
+
     // Step Two: Read in the GREEN color value
-    greenValue = scanner.nextInt();
+
     // Step Three: Read in the BLUE color value
-    blueValue = scanner.nextInt();
+
     // Step Four: Create the JFrame window
     JFrame window = new JFrame("Gregory M. Kapfhammer " + new Date());
     // Step Five: Add the drawing canvas and do necessary things to
